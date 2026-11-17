@@ -54,8 +54,8 @@ print()
 aluno1 = {"Python", "Java", "PHP"}
 aluno2 = {"Python", "JavaScript", "C#"}
 
-print(f"Matérias compartilhadas: {aluno1 & aluno2}")
-print(f"Matérias não compartilhadas: {aluno1 ^ aluno2}")
+print(f"Matérias compartilhadas: {aluno1 & aluno2}.")
+print(f"Matérias não compartilhadas: {aluno1 ^ aluno2}.")
 print()
 
 
@@ -66,5 +66,18 @@ aluno2 = {"Python", "JavaScript", "C#"}
 compartilhadas = aluno1 & aluno2
 nao_compartilhadas = aluno1 ^ aluno2
 
-print(f"Matérias compartilhadas: {compartilhadas}")
-print(f"Matérias não compartilhadas: {nao_compartilhadas}")
+print(f"Matérias compartilhadas: {compartilhadas}.")
+print(f"Matérias não compartilhadas: {nao_compartilhadas}.")
+
+# BLOCO 9 - Compara e reúne as matérias dos dois alunos
+aluno1 = {"Python", "Java", "PHP"}
+aluno2 = {"Python", "JavaScript", "C#"}
+
+todas = aluno1 | aluno2
+compartilhadas = aluno1 & aluno2
+nao_compartilhadas = aluno1 ^ aluno2
+
+print(f"Todas as matérias: {todas}.")
+print(f"Matérias compartilhadas: {compartilhadas}.")
+print(f"Matérias não compartilhadas: {nao_compartilhadas}.")
+print()
