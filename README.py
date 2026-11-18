@@ -98,6 +98,11 @@ while True:
     listaproduto.append({"nome": nome, "qualidade": qualidade, "preco": preco, "cor": cor, "peso": peso, "qtd": qtd})
     
     sn = str(input("Deseja sair (S/N)? ")).lower()
+        if sn == "s":
+        break
+    
+print(listaproduto)
+
 
 while True:
     print("DIGITE A OPÇÃO")
@@ -129,7 +134,3 @@ while True:
 
 
 
-    if sn == "s":
-        break
-    
-print(listaproduto)
