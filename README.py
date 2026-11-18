@@ -81,3 +81,24 @@ print(f"Todas as matérias: {todas}.")
 print(f"Matérias compartilhadas: {compartilhadas}.")
 print(f"Matérias não compartilhadas: {nao_compartilhadas}.")
 print()
+
+listaproduto = []
+
+while True:
+    id = int(input("Digite o código do produto: "))
+    nome = str(input("Nome do produto: "))
+    qualidade = str(input("Qualidade do produto: "))
+    preco = float(input("Preço do produto: "))
+    cor = str(input("Cor do produto: "))
+    peso = float(input("Peso do produto: "))
+    qtd = int(input("Quantidade do produto: "))
+    
+
+    
+    listaproduto.append({"nome": nome, "qualidade": qualidade, "preco": preco, "cor": cor, "peso": peso, "qtd": qtd})
+    
+    sn = str(input("Deseja sair (S/N)? ")).lower()
+    if sn == "s":
+        break
+    
+print(listaproduto)
